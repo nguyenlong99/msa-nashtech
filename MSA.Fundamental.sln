@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.Contracts", "MSA.Common.Contracts\MSA.Common.Contracts.csproj", "{42D93F52-56BE-4D7F-AD71-0D91689FB55C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.Mongo", "MSA.Common.Mongo\MSA.Common.Mongo.csproj", "{56DF8DEE-F833-43FA-9EF8-EF48FDF4AC1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.Common.PostgresMassTransit", "MSA.Common.PostgresMassTransit\MSA.Common.PostgresMassTransit.csproj", "{7DC7DBF3-FF7D-498C-893B-C2745931F71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.ProductService", "MSA.ProductService\MSA.ProductService.csproj", "{137ED47C-C58D-4DA9-903C-7A1C8F946537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSA.OrderService", "MSA.OrderService\MSA.OrderService.csproj", "{A57A3A31-FD78-4400-B3E5-1637F6114E57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42D93F52-56BE-4D7F-AD71-0D91689FB55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D93F52-56BE-4D7F-AD71-0D91689FB55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D93F52-56BE-4D7F-AD71-0D91689FB55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D93F52-56BE-4D7F-AD71-0D91689FB55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56DF8DEE-F833-43FA-9EF8-EF48FDF4AC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56DF8DEE-F833-43FA-9EF8-EF48FDF4AC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56DF8DEE-F833-43FA-9EF8-EF48FDF4AC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56DF8DEE-F833-43FA-9EF8-EF48FDF4AC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC7DBF3-FF7D-498C-893B-C2745931F71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC7DBF3-FF7D-498C-893B-C2745931F71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC7DBF3-FF7D-498C-893B-C2745931F71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC7DBF3-FF7D-498C-893B-C2745931F71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137ED47C-C58D-4DA9-903C-7A1C8F946537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137ED47C-C58D-4DA9-903C-7A1C8F946537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137ED47C-C58D-4DA9-903C-7A1C8F946537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137ED47C-C58D-4DA9-903C-7A1C8F946537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57A3A31-FD78-4400-B3E5-1637F6114E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57A3A31-FD78-4400-B3E5-1637F6114E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57A3A31-FD78-4400-B3E5-1637F6114E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57A3A31-FD78-4400-B3E5-1637F6114E57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
