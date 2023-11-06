@@ -12,11 +12,11 @@ public class ProductService : IProductService
 
 	public async Task<bool> IsProductExisted(Guid id)
 	{
-		var result = await httpClient.GetAsync($"v1/product/{id}");
-
-		if (result.StatusCode.ToString() == "OK") return await Task.FromResult(true);
+		var result = await httpClient.GetStringAsync($"v1/product/{id}");
+		var existedId = Guid.Empty;
+		Guid.TryParse(result, out existedId);
+		if (existedId == id) return await Task.FromResult(true);
 
 		return await Task.FromResult(false);
-
 	}
 }

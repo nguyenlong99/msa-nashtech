@@ -40,9 +40,9 @@ namespace MSA.ProductService.Controllers
 			if (id == null) return BadRequest();
 
 			var product = await _repository.GetAsync(id);
-			if (product == null) return NotFound();
+			if (product == null) return Ok(Guid.Empty);
 
-			return Ok(product);
+			return Ok(product.Id);
 		}
 
 		[HttpPost]
